@@ -1,0 +1,36 @@
+<suite name="Login Test" verbose="1">
+	<test name="Sum Test">
+		<!-- Overriding suite level parameter -->
+		<parameter name="login" value="picfost" />
+		<!-- Test specific parameter -->
+		<parameter name="pass" value="password" />
+		<parameter name="city" value="Sao Paulo" />
+		<parameter name="day" value="11" />
+		<parameter name="result" value="Available Flights" />
+		<classes>
+			<class name="testing.TestNG">
+				<methods>
+					<include name="testSelectFlight" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Login2 Test">
+		<!-- Overriding suite level parameter -->
+		<parameter name="login" value="picfost1337" />
+		<!-- Test specific parameter -->
+		<parameter name="pass" value="passwordLeet!!$" />
+		<parameter name="city" value="Dublin" />
+		<parameter name="day" value="22" />
+		<parameter name="result" value="Available Flights" />
+		<classes>
+			<class name="testing.TestNG">
+				<methods>
+					<include name="testSelectFlight" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+</suite>

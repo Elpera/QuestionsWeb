@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-09T08:10:44Z" name="Default suite" finished-at="2022-11-09T08:11:02Z" duration-ms="18059">
+    <groups>
+    </groups>
+    <test started-at="2022-11-09T08:10:44Z" name="Default test" finished-at="2022-11-09T08:11:02Z" duration-ms="18059">
+      <class name="flights.api_tests.TestNG2">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:flights.api_tests.TestNG2@32c4e8b2]" started-at="2022-11-09T09:10:44Z" name="beforeMethod" finished-at="2022-11-09T09:10:46Z" duration-ms="2439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testEmptyEmailLogin()[pri:0, instance:flights.api_tests.TestNG2@32c4e8b2]" started-at="2022-11-09T09:10:46Z" name="testEmptyEmailLogin" finished-at="2022-11-09T09:10:51Z" duration-ms="4252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyEmailLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:flights.api_tests.TestNG2@32c4e8b2]" started-at="2022-11-09T09:10:51Z" name="afterMethod" finished-at="2022-11-09T09:10:51Z" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:flights.api_tests.TestNG2@32c4e8b2]" started-at="2022-11-09T09:10:51Z" name="beforeMethod" finished-at="2022-11-09T09:10:52Z" duration-ms="1572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testInvalidEmailLogin()[pri:0, instance:flights.api_tests.TestNG2@32c4e8b2]" started-at="2022-11-09T09:10:52Z" name="testInvalidEmailLogin" finished-at="2022-11-09T09:10:57Z" duration-ms="4278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmailLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:flights.api_tests.TestNG2@32c4e8b2]" started-at="2022-11-09T09:10:57Z" name="afterMethod" finished-at="2022-11-09T09:10:57Z" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:flights.api_tests.TestNG2@32c4e8b2]" started-at="2022-11-09T09:10:57Z" name="beforeMethod" finished-at="2022-11-09T09:10:58Z" duration-ms="1490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testQuestions()[pri:0, instance:flights.api_tests.TestNG2@32c4e8b2]" started-at="2022-11-09T09:10:58Z" name="testQuestions" finished-at="2022-11-09T09:11:02Z" duration-ms="3461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuestions -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:flights.api_tests.TestNG2@32c4e8b2]" started-at="2022-11-09T09:11:02Z" name="afterMethod" finished-at="2022-11-09T09:11:02Z" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- flights.api_tests.TestNG2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
